@@ -1,51 +1,72 @@
 # project-pcbuild
 
-This project documents the full assembly of a second custom-built PC intended for lab virtualization, development, and general high-performance computing. It includes part selection, build process, and configuration notes. All parts were sourced from Amazon.sa or trusted local sellers.
+This project documents the full assembly of a custom-built PC intended to host my Proxmox homelab environment. It includes part selection, hands-on assembly, BIOS configuration, and successful first boot. All components were sourced from Amazon.sa.
 
 ---
 
 ## Hardware List
 
-| Component         | Model & Specs                                                                                   | Price (SAR) | Quantity | Total     |
-|------------------|--------------------------------------------------------------------------------------------------|-------------|----------|-----------|
-| CPU              | AMD Ryzen 5 8500G / 6-Core / 3.5GHz / AM5                                                        | 590         | 1        | 590 SAR   |
-| Motherboard      | MSI PRO A620M-B / AM5 / mATX                                                                     | 335         | 1        | 335 SAR   |
-| RAM              | Kingston FURY Beast EXPO / DDR5 / 64GB (2×32GB) / 6000MHz / CL30 / White                         | 824         | 1        | 824 SAR   |
-| SSD              | Kingston NV3 / NVMe PCIe 4.0 / 1TB / M.2 2280 / SNV3S/1000G                                      | 225.30      | 1        | 225.30 SAR|
-| PSU              | FSP HYPER 80+ PRO / 650W / ATX 3.0 / 80PLUS Bronze 230V / Bulk                                   | 245         | 1        | 245 SAR   |
-| Case             | GAMEON Emperor Midnight II                                                                       | 269         | 1        | 269 SAR   |
+| Component         | Model                                                    | Price (SAR) |
+|------------------|-----------------------------------------------------------|-------------|
+| CPU              | AMD Ryzen 5 8500G 6-Core 3.5GHz (AM5)                     | 590         |
+| Motherboard      | MSI PRO A620M-B AM5 mATX                                  | 335         |
+| RAM              | Kingston FURY Beast DDR5 64GB (2×32GB) 6000MHz CL30       | 824         |
+| SSD              | Kingston NV3 NVMe PCIe 4.0 1TB                            | 225.30      |
+| Case             | GAMEON Emperor Midnight II Series                         | 269         |
+| PSU              | FSP HYPER 80+ PRO 650W 80PLUS Bronze ATX 3.0              | 245         |
 
-Total Cost: ~SAR 2,489.30
+**Total Cost:** ~SAR 2,488
 
 ---
 
-## Build Status
+## Build Log
 
-- Parts purchased  
-- PC fully assembled  
-- BIOS configured (SVM enabled, EXPO profile set)  
-- System successfully boots and is stable under load  
+### 1. Parts Overview
+![Parts Overview](images/00-parts-overview.jpg)
+
+### 2. Anti-Static Prep
+![Wrist Strap](images/01-esd-wrist-strap.jpg)
+
+### 3. CPU and Cooler Installation
+![Installing CPU](images/02-installing-cpu.jpg)  
+![Cooler Installed](images/03-cooler-installed.jpg)
+
+### 4. RAM and NVMe SSD Installation
+![RAM Installed](images/04-ram-installed.jpg)  
+![NVMe Installed](images/05-nvme-installed.jpg)
+
+### 5. Motherboard Shield and Case Setup
+![I/O Shield Installed](images/06-io-shield-installed.jpg)  
+![Case Fans View](images/07-case-fans-view.jpg)
+
+### 6. Motherboard and PSU Installation
+![Motherboard Installed](images/08-motherboard-installed.jpg)  
+![PSU Installed](images/09-psu-installed.jpg)
+
+### 7. Cable Management and Final Routing
+![Cable Routing](images/10-cable-routing.jpg)
+
+### 8. Final Boot and BIOS Access
+![Build Powered On](images/11-final-build-powered-on.jpg)  
+![First Boot Success](images/12-first-boot-success.jpg)
 
 ---
 
 ## BIOS Configuration
 
-- Enabled SVM Mode (AMD-V) for virtualization
-- Enabled EXPO Profile for DDR5-6000 RAM performance
-- Verified 64GB RAM (2×32GB) detected properly
-- NVMe SSD recognized as bootable device
-- No BIOS update required at time of build
+- Enabled SVM Mode (AMD-V) for virtualization support  
+- Verified boot device priority  
+- Confirmed 1×32GB DDR5 recognized (second stick added after initial boot)  
+- No BIOS update required  
+
+---
+
+## Result
+
+The system booted successfully after an initial RAM debug LED issue. After reseating one RAM stick, the machine powered on and displayed the BIOS interface. This machine is now ready for Proxmox installation and lab virtualization work.
 
 ---
 
 ## Notes
 
-- All passwords, serial numbers, and BIOS screenshots are stored securely in Bitwarden.  
-- This PC will serve as a Proxmox host and general virtualization lab system.
-- SSD was sourced from local vendor Click Tera via Amazon.sa.
-
----
-
-## Photos
-
-Images to be added once documentation screenshots are complete.
+All root credentials, BIOS notes, and system passwords were stored securely in Bitwarden.
