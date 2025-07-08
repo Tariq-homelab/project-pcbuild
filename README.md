@@ -23,7 +23,8 @@ This project documents the assembly of a custom-built PC to host my Proxmox home
 
 ## BIOS Configuration
 
-- Enabled SVM Mode (AMD-V) for virtualization support  
+- Enabled **SVM Mode (AMD-V)** for virtualization support  
+- Chose **EXPO 1 profile** to allow the RAM to run at its full advertised speed of 6000 MHz  
 - Verified boot device priority  
 - Confirmed 1×32GB DDR5 recognized (second stick added after initial boot)  
 - No BIOS update required  
@@ -58,6 +59,17 @@ The system booted successfully after a RAM debug LED issue (resolved by reseatin
 
 - ![](images/11-final-build-powered-on.jpg)  
 - ![](images/12-first-boot-success.jpg)
+
+### BIOS Settings Confirmation
+
+- ![](images/13-fan-temp-bios.jpg)  
+  _BIOS Fan Info tab showing CPU temperature (47°C), motherboard temp (38°C), and system voltage — confirming stable and cool operation._
+
+- ![](images/14-easy-bios.jpg)  
+  _EZ Mode view confirming EXPO 1 profile is enabled, DDR5 running at 6000 MHz, and boot priorities set correctly._
+
+- ![](images/15-advanced-bios.jpg)  
+  _Advanced BIOS view showing **SVM (Secure Virtual Machine)** enabled — required for Proxmox and virtualization._
 
 ---
 
