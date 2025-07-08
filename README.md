@@ -10,12 +10,12 @@ This project documents the full assembly of a custom-built PC intended to host m
 |------------------|-------------------------------------|-------------|------------|
 | CPU              | AMD Ryzen 5 5600G                   | 611         | Amazon.sa  |
 | Motherboard      | Biostar B550MH 3.0 Micro-ATX        | 364.16      | Amazon.sa  |
-| RAM              | Crucial 32GB (2×16GB) DDR4-3200     | 246.71      | Amazon.sa  |
+| RAM              | Crucial 32GB (2×16GB) DDR4-3200     | 755.56      | Amazon.sa  |
 | SSD              | Kingston NV3 1TB NVMe Gen4          | 212.98      | Amazon.sa  |
 | Case             | MSI MAG FORGE 100R w/ 4× RGB fans   | 213.58      | Amazon.sa  |
-| PSU              | Cooler Master MWE 550W Bronze V2    | ~100        | Amazon.sa  |
+| PSU              | Generic non-modular PSU 550W   |    | ~200        | Amazon.sa  |
 
-**Total Cost:** ~SAR 1,750
+**Total Cost:** ~SAR 2,357
 
 ---
 
