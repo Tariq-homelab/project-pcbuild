@@ -41,38 +41,32 @@ The system booted successfully after a RAM debug LED issue (resolved by reseatin
 
 ### Parts & Preparation
 
-- ![](images/00-parts-overview.jpg)  
-- ![](images/01-esd-wrist-strap.jpg)
+<p align="center"><img src="images/00-parts-overview.jpg" width="500"/></p>  
+<p align="center"><img src="images/01-esd-wrist-strap.jpg" width="500"/></p>
 
 ### Hardware Installation
 
-- ![](images/02-installing-cpu.jpg)  
-- ![](images/03-cooler-installed.jpg)  
-- ![](images/04-ram-installed.jpg)  
-- ![](images/05-nvme-installed.jpg)  
-- ![](images/06-io-shield-installed.jpg)  
-- ![](images/08-motherboard-installed.jpg)  
-- ![](images/09-psu-installed.jpg)  
-- ![](images/10-cable-routing.jpg)
+<p align="center"><img src="images/02-installing-cpu.jpg" width="500"/></p>  
+<p align="center"><img src="images/03-cooler-installed.jpg" width="500"/></p>  
+<p align="center"><img src="images/04-ram-installed.jpg" width="500"/></p>  
+<p align="center"><img src="images/05-nvme-installed.jpg" width="500"/></p>  
+<p align="center"><img src="images/06-io-shield-installed.jpg" width="500"/></p>  
+<p align="center"><img src="images/08-motherboard-installed.jpg" width="500"/></p>  
+<p align="center"><img src="images/09-psu-installed.jpg" width="500"/></p>  
+<p align="center"><img src="images/10-cable-routing.jpg" width="500"/></p>
 
 ### Power On & Boot
 
-- ![](images/11-final-build-powered-on.jpg)  
-- ![](images/12-first-boot-success.jpg)
+<p align="center"><img src="images/11-final-build-powered-on.jpg" width="500"/></p>  
+<p align="center"><img src="images/12-first-boot-success.jpg" width="500"/></p>
 
 ### BIOS Settings Confirmation
 
-- ![](images/13-fan-temp-bios.jpg)  
-  _BIOS Fan Info tab showing CPU temperature (47°C), motherboard temp (38°C), and system voltage — confirming stable and cool operation._
+<p align="center"><img src="images/13-fan-temp-bios.jpg" width="500"/></p>  
+<p align="center"><em>BIOS Fan Info tab showing CPU temperature (47°C), motherboard temp (38°C), and system voltage — confirming stable and cool operation.</em></p>
 
-- ![](images/14-easy-bios.jpg)  
-  _EZ Mode view confirming EXPO 1 profile is enabled, DDR5 running at 6000 MHz, and boot priorities set correctly._
+<p align="center"><img src="images/14-easy-bios.jpg" width="500"/></p>  
+<p align="center"><em>EZ Mode view confirming EXPO 1 profile is enabled, DDR5 running at 6000 MHz, and boot priorities set correctly.</em></p>
 
-- ![](images/15-advanced-bios.jpg)  
-  _Advanced BIOS view showing **SVM (Secure Virtual Machine)** enabled — required for Proxmox and virtualization._
-
----
-
-## Notes
-
-All passwords and BIOS settings are secured using Bitwarden CLI and GUI.
+<p align="center"><img src="images/15-advanced-bios.jpg" width="500"/></p>  
+<p align="center"><em>Advanced BIOS view showing <strong>SVM (Secure Virtual Machine)</strong> enabled — required for Proxmox and virtualization.</em></p>
