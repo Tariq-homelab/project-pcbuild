@@ -1,5 +1,3 @@
-# project-pcbuild
-
 ## Overview
 
 This project documents the assembly of a custom-built PC to host my Proxmox homelab environment. It includes part selection, BIOS configuration, and final testing.
